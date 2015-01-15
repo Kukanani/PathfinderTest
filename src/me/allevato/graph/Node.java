@@ -1,5 +1,11 @@
 package me.allevato.graph;
 
+/**
+ * a single node in a graph. Base class, simply keeps an auto-incremented ID.
+ * @author adam
+ *
+ * @param <Extra> The type of extra info attached to this node
+ */
 public class Node<Extra> {
 	int id;
 	Extra attached;

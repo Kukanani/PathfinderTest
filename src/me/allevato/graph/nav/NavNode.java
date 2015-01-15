@@ -3,6 +3,11 @@ import me.allevato.graph.ExtraInfo;
 import me.allevato.graph.Node;
 
 
+/**
+ * A type of node that has an (x,y) position.
+ * @author adam
+ *
+ */
 public class NavNode extends Node<ExtraInfo> {
 	int x;
 	int y;

@@ -7,6 +7,13 @@ import java.util.Vector;
 import me.allevato.graph.nav.NavEdge;
 import me.allevato.graph.nav.NavGraph;
 
+
+/**
+ * Depth-first graph search. Creates long winding paths, although they will eventually find the target.
+ * @author adam
+ *
+ * @param <GraphType> the type of graph to search
+ */
 public class SearchDFS<GraphType extends NavGraph> {
 	int start;
 	int goal;

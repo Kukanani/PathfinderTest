@@ -3,6 +3,11 @@ package me.allevato.graph.nav;
 import me.allevato.graph.ExtraInfo;
 import me.allevato.graph.Graph;
 
+/**
+ * A special type of graph consisting of NavEdges and NavNodes, which have XY positions. Useful for pathfinding algorithms.
+ * @author adam
+ *
+ */
 public class NavGraph extends Graph<NavNode, NavEdge, ExtraInfo, ExtraInfo> {
 	int width = 0;
 	int height = 0;

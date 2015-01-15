@@ -8,6 +8,12 @@ import java.util.Vector;
 
 import me.allevato.graph.util.Geometry;
 
+/**
+ * Creates a navGraph that doesn't intersect any of the specified 2D line walls. Uses a flood fill algorithm
+ * to create a finely-grained uniform graph.
+ * @author adam
+ *
+ */
 public class FloodFillGraph extends NavGraph {
 	public Vector<Line> walls;
 	Random r = new Random();

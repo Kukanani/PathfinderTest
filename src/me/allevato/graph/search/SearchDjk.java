@@ -7,6 +7,13 @@ import me.allevato.graph.nav.NavEdge;
 import me.allevato.graph.nav.NavGraph;
 import me.allevato.graph.util.IndexMinPQ;
 
+/**
+ * Dijkstra's search algorithm. Expands lowest-cost edges first. In a uniform graph, this results in a circular
+ * frontier expansion, terminating when the frontier reaches the target.
+ * @author adam
+ *
+ * @param <GraphType> the type of graph to search.
+ */
 public class SearchDjk<GraphType extends NavGraph> {
 	int start;
 	int goal;

@@ -2,6 +2,11 @@ package me.allevato.graph.util;
 
 import java.awt.Point;
 
+/**
+ * Geometry utilities
+ * @author adam
+ *
+ */
 public class Geometry {
 	public static boolean LineIntersection2D(Point A,
 			Point B,

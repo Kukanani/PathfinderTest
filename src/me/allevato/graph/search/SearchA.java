@@ -8,6 +8,15 @@ import me.allevato.graph.nav.NavGraph;
 import me.allevato.graph.nav.NavNode;
 import me.allevato.graph.util.IndexMinPQ;
 
+/**
+ * A* algorithm for basic graph search.
+ * 
+ * TODO the heuristic function is not used correctly, resulting in the algorithm being slow. Possibly, the 
+ * heuristic cost adjustment is causing extra edges/nodes to be examined repeatedly.
+ * @author adam
+ *
+ * @param <GraphType> the type of graph to search
+ */
 public class SearchA<GraphType extends NavGraph> {
 	int start;
 	int goal;

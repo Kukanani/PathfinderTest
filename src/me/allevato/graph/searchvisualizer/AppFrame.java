@@ -1,6 +1,11 @@
 package me.allevato.graph.searchvisualizer;
 import javax.swing.JFrame;
 
+/**
+ * Main app frame. Handles Swing creation.
+ * @author adam
+ *
+ */
 public class AppFrame {
 	public static void main(String args[]) {
 		new AppFrame();

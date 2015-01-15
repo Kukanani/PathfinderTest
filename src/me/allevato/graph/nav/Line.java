@@ -2,6 +2,11 @@ package me.allevato.graph.nav;
 
 import java.awt.Point;
 
+/**
+ * A connection between two java.awt.Point objects.
+ * @author adam
+ *
+ */
 public class Line {
 	public Point p1;
 	public Point p2;

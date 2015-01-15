@@ -1,5 +1,8 @@
 package me.allevato.graph;
 
+/**
+ * An edge between two nodes. Extra attached information can be stored as templated type
+ */
 public class Edge<E> {
 	int id;
 	

@@ -3,7 +3,15 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Vector;
 
-
+/**
+ * A list of nodes and edges. Also stores a list of edges attached to each node ( the indexed edges list).
+ * @author adam
+ *
+ * @param <NodeType> the class of nodes to use
+ * @param <EdgeType> the class of edges to use
+ * @param <ExtraI> the type of extra info attached to nodes
+ * @param <ExtraIE> the type of extra info attached to edges
+ */
 public class Graph<NodeType extends Node<ExtraI>, EdgeType extends Edge<ExtraIE>, ExtraI, ExtraIE> {
 	private Vector<NodeType> nodes;
 	private ArrayList<EdgeType> edges;
